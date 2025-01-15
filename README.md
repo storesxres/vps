@@ -3,18 +3,15 @@
 CONTACT FOR ORDERS : https://wa.me/6283114918419
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && apt install gzip bzip2 xz-utils -y && wget -q https://raw.githubusercontent.com/storesxres/vps/main/install && chmod +x install && ./install
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && apt install gzip bzip2 xz-utils -y && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/storesxres/vps/main/install && chmod +x install && ./install
 </code></pre>
 
 ### PERINTAH UPDATE 
 <pre><code>wget https://raw.githubusercontent.com/storesxres/vps/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### OS SUPPORT
-- ubuntu 20.04.05
-- debian 10
-- debian 11 ( project )
-- debian 12 ( project )
-
+- ubuntu 20/21/22
+- debian 10/11/12
 
 ### FITUR TAMBAHAN
 - Tambah Swap 1GiB
