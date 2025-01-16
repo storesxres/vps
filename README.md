@@ -3,8 +3,9 @@
 CONTACT FOR ORDERS : https://wa.me/6283114918419
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && apt install gzip bzip2 xz-utils -y && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/storesxres/vps/main/install && chmod +x install && ./install
-</code></pre>
+```
+apt update && apt install wget -y && apt install curl -y && apt install shc -y && apt install xz-utils -y && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/storesxres/vps/main/install && chmod +x install && ./install
+```
 
 ### PERINTAH UPDATE 
 <pre><code>wget https://raw.githubusercontent.com/storesxres/vps/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
